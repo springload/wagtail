@@ -19,14 +19,16 @@ $footer-submenu: $submenu-color;
 }
 
 .nav-toggle.icon {
-    left: $mobile-nice-padding;
     cursor: pointer;
     position: absolute;
+    left: -32px;
+    top: -6px; // to align the icon with neighbouring text
+    width: 55px;
 
     &:before {
-        font-size: 40px;
+        font-size: 55px;
         color: $color-white;
-        line-height: 40px;
+        line-height: 55px;
         content: '\2261';
     }
 }
