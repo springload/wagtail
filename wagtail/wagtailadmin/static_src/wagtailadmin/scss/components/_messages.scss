@@ -1,4 +1,4 @@
-// Messages are specific to Django's 'Messaging' system which adds messages into the session, 
+// Messages are specific to Django's 'Messaging' system which adds messages into the session,
 // for display on the next page visited. These appear as an animated banner at the top of the page.
 //
 // For inline help text, see typography.scss
@@ -98,5 +98,26 @@
     .messages > ul > li {
         padding-left: 1.6em;
         padding-right: 3em;
+    }
+}
+
+// make way for the navbar toggle icon when in mobile state
+@media screen and (max-width: $breakpoint-mobile) {
+    .success {
+        &:before {
+            padding-left: 50px;
+        }
+    }
+
+    .error {
+        &:before {
+            padding-left: 50px;
+        }
+    }
+
+    .warning {
+        &:before {
+            padding-left: 50px;
+        }
     }
 }
