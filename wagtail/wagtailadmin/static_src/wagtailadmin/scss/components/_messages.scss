@@ -103,18 +103,8 @@
 
 // make way for the navbar toggle icon when in mobile state
 @media screen and (max-width: $breakpoint-mobile) {
-    .success {
-        &:before {
-            padding-left: 50px;
-        }
-    }
-
-    .error {
-        &:before {
-            padding-left: 50px;
-        }
-    }
-
+    .success,
+    .error,
     .warning {
         &:before {
             padding-left: 50px;
