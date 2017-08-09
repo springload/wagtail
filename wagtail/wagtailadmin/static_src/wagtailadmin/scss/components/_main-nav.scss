@@ -22,7 +22,7 @@ $footer-submenu: $submenu-color;
     left: $mobile-nice-padding;
     cursor: pointer;
     position: absolute;
-    top: 4px; // to align the icon with neighbouring text
+    top: 3px; // to align the icon with neighbouring text
 
     &:before {
         font-size: 40px;
