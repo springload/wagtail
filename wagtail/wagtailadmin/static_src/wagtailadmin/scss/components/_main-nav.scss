@@ -476,6 +476,6 @@ body.explorer-open {
 // make way for the navbar toggle icon when in mobile state
 @media screen and (max-width: $breakpoint-mobile) {
     .avatar {
-        left: 50px;
+        left: $mobile-nav-indent;
     }
 }
