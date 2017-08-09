@@ -159,6 +159,6 @@ header {
 // make way for the navbar toggle icon when in mobile state
 @media screen and (max-width: $breakpoint-mobile) {
     .header-title {
-        padding-left: 50px;
+        padding-left: $mobile-nav-indent;
     }
 }
