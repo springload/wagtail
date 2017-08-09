@@ -107,7 +107,7 @@
     .error,
     .warning {
         &:before {
-            padding-left: 50px;
+            padding-left: $mobile-nav-indent;
         }
     }
 }
