@@ -100,13 +100,3 @@
         padding-right: 3em;
     }
 }
-
-.success,
-.error,
-.warning {
-    &:before {
-        @media screen and (max-width: $breakpoint-mobile) {
-            padding-left: $mobile-nav-indent;
-        }
-    }
-}

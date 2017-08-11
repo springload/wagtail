@@ -22,9 +22,10 @@ $footer-submenu: $submenu-color;
     left: $mobile-nice-padding;
     cursor: pointer;
     position: absolute;
-    top: 3px;
 
     &:before {
+        position: relative;
+        top: 3px;
         font-size: 40px;
         color: $color-white;
         line-height: 40px;
