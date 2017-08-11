@@ -19,9 +19,9 @@ $footer-submenu: $submenu-color;
 }
 
 .nav-toggle.icon {
-    left: $mobile-nice-padding;
-    cursor: pointer;
     position: absolute;
+    padding-left: $mobile-nice-padding;
+    cursor: pointer;
 
     &:before {
         position: relative;
