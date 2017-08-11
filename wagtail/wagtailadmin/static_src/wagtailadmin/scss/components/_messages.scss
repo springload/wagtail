@@ -101,12 +101,11 @@
     }
 }
 
-// make way for the navbar toggle icon when in mobile state
-@media screen and (max-width: $breakpoint-mobile) {
-    .success,
-    .error,
-    .warning {
-        &:before {
+.success,
+.error,
+.warning {
+    &:before {
+        @media screen and (max-width: $breakpoint-mobile) {
             padding-left: $mobile-nav-indent;
         }
     }
